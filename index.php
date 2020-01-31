@@ -30,7 +30,7 @@
     <div class="btnCollapse"> <i></i> </div>
     <div class="sidebar-content">
       <h6 class="text-blue text-uppercase text-semibold mb1">CBM Global</h6>
-      <ul class="nav flex-column mb4">
+      <ul class="nav flex-column mb3">
         <li class="nav-item"> <a class="nav-link" href="step1-registration-1.php"> <i><img src="imgs/icon-logo.svg"></i>
           <div><span>Step1</span>Registration</div>
           </a> </li>
