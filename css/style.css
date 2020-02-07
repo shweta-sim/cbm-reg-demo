@@ -549,7 +549,8 @@ a[aria-expanded="true"]::before {
 	border-left: 2px solid transparent;
 	transition: all .25s ease-in;
 }
-#sidebar .nav .nav-item .nav-link:hover, #sidebar .nav .nav-item .nav-link.active {
+#sidebar .nav .nav-item .nav-link:hover, 
+#sidebar .nav .nav-item .nav-link.active {
 	color: #d4537d;
 	background: #fff;
 	border-left: 2px solid #d4537d;
@@ -739,7 +740,9 @@ a[aria-expanded="true"]::before {
 	color: #d4537d;
 	background: none;
 }
-.tabs-registration .nav-link:after {
+.tabs-registration .nav-link:after, 
+.expecting-trading-box:before,
+.price-table-box:before{
 	position: absolute;
 	top: 8px;
 	right: -40px;
@@ -852,8 +855,315 @@ ul.mandatory-terms li:before {
 }
 .panel-heading.active a:before {
 	-webkit-transform: rotate(180deg);
- -moz-transform: rotate(180deg) transform: rotate(180deg);
+ -moz-transform: rotate(180deg);
+ transform: rotate(180deg);
 }
 .panel-body {
 	padding: 0;
 }
+/*------------buy-cashback-licenses---------*/
+.buy-cashback-licenses.bg-gradiant{
+    /*background: rgb(255,255,255);*/
+    background: linear-gradient(90deg, rgba(255,255,255,1) 40%, rgba(242,245,250,1) 40%);
+}
+.buy-cashback-license{
+    padding-top: 10px;
+}
+.license-box, .expecting-trading-box, .price-table-box{
+    box-shadow: 0 0 40px rgba(0,0,0,.15);
+    text-align: center;
+    margin-top: 60px;
+    background: #fff;
+}
+.license-box img{
+    margin-top: -60px;
+}
+.license-name, .license-price span{
+    color:#d4537d;
+    font-weight: 600;
+    font-size:16px;
+}
+.license-name{
+    padding-top:15px;
+}
+.license-price{
+    font-size:13px;
+    padding-bottom: 30px;
+}
+.product-info-tabs .nav-pills li a{
+    font-weight: 600;
+    font-size:16px;
+    padding:0px 12px 8px;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 3px solid transparent;
+}
+.product-info-tabs .nav-pills li a{
+    color:#656666;
+}
+.product-info-tabs .nav-pills li a.active{
+    color:#d4537d;
+     border-bottom: 3px solid #d4537d;
+}
+.tabs-buy-cashback .tab-content .tab-pane{
+    background: none;
+    padding: 0 0 !important;
+    box-shadow: none
+}
+#product_information ul li{
+    margin-left: 12px;
+    margin-bottom: 10px;
+}
+#product_information ul li:before{
+      content: "\2022";
+  color: #d4547e;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em; 
+}
+.mb05{
+    margin-bottom: 5px;
+}
+.expecting-trading-box, .price-table-box{
+    margin-top: 0px;
+    text-align: left;
+    padding: 40px;
+    height: auto;
+    position: relative
+}
+.price-table-box{
+    padding: 30px;
+}
+.expecting-trading-box:before, .price-table-box:before{
+    position: absolute;
+    top: 50%;
+    transform:translateY(-50%); 
+    left: -20px;
+    
+}
+.expecting-trading-box:before{
+    content: "1" !important;
+    color:#d3537d;
+}
+.price-table-box:before{
+    content: "2" !important;
+    color:#0c5ea5;
+}
+.pl5{
+    padding-left: 50px;
+}
+.pl65{
+    padding-left: 65px;
+}
+.pl6{
+    padding-left:60px;
+}
+.font16{
+    font-size: 16px;
+}
+.price-flex-heading, .price-flex-item, .bill-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+.price-flex-heading{
+    background: #0c5ca2;
+    color: #fff;
+}
+.price-flex-heading>p{
+    text-align: center;
+    text-transform: capitalize;
+    flex-basis: 25%;
+    padding: 10px 0px;
+}
+.price-flex-item>div{
+    padding: 10px 2px;
+    text-align: center;
+    flex-basis: 25%;
+}
+.price-flex-item:nth-child(even){
+    background: #f1f5fa;
+}
+.price-flex-item>div:first-child, .price-flex-heading>p:first-child{
+    text-align: left;
+    padding-left: 15px;
+}
+.text-potential{
+    color:#a6a6a6;
+}
+.buy-license-graph img{
+    width: 100%;
+    margin-top: 60px;
+}
+.bill-row{
+    padding: 10px;
+    font-weight: 600;
+}
+.bill-row:nth-child(odd){
+    background: #fff;
+}
+.bill-row:last-child{
+    background: #0c5ca2;
+    color:#fff;
+    font-size:15px;
+}
+.bill-final-amount{
+    font-size: 28px;
+}
+.one-time-stats{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.border-round{
+    border-radius: 50px;
+    padding: 15px 18px 15px 18px;
+    border:1px solid #d9d9d9;
+}
+.padding-right-0{
+    padding-right: 0px !important;
+}
+.border-round span{
+    background: linear-gradient(to right, #d5557e,#e67397);
+    padding: 16px 15px;
+    border-radius:50px;
+    color:#fff;
+    text-transform: uppercase;
+    margin-right: -1px;  
+    margin-left: 20px;
+}
+.mb1-5{
+    margin-bottom: 15px;
+}
+.trading-input-relative{
+    position: relative;
+}
+.trading-input-relative span{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform:translateY(-50%);
+}
+.trading-up-down-btn{
+     background: linear-gradient(to right, #d5557e,#e67397);
+    padding: 0px 13px 0 18px;
+    height: 40px;
+    border-radius:50px;
+    color:#fff;
+    text-transform: uppercase;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: flex;
+    align-items: center
+}
+.trading-up-down-btn button{
+    background: transparent;
+    border: none;
+    height: 2px;
+    font-size: 16px;
+    color:#fff;
+}
+.trading-up-down-btn button:hover{
+    cursor: pointer;
+}
+.trading-up-down-btn button:focus{
+    outline: none;
+}
+.up-down-btn{
+    display: flex;
+    flex-direction: column;
+    margin-top: -19px;
+}
+/*-    background: transparent;
+-modal Css--*/
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 0px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.pointer:hover{
+    cursor: pointer;
+}
+/* Modal Content */
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    margin: auto;
+    padding: 0;
+    width: 60%;
+    height: 80%;
+    border:none;
+    border-radius:10px;
+    text-align: center;
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-50%; opacity:0} 
+  to {top:50%; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-50%; opacity:0}
+  to {top:50%; opacity:1}
+}
+
+/* The Close Button */
+.close {
+   position: absolute;
+   top:10px;
+   right: 10px;
+  color: #d4537d;
+  font-size: 28px;
+  font-weight: bold;
+  background: #fff !important;
+  z-index: 3;
+  opacity: 1;
+  padding: 5px 10px;
+  border-radius:5px;
+}
+
+.close:hover,
+.close:focus {
+  color: #d4537d !important;
+  text-decoration: none;
+  cursor: pointer;
+  transform: rotate(180deg);
+}
+
+.popup-header {
+  padding: 2px 16px;
+  color: white;
+}
+.modal-body {
+     height: 100%;
+    width:100%;
+    position: relative;
+}
+.modal-body img{
+    max-width: 90%;
+    max-height: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+

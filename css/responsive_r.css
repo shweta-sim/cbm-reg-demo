@@ -87,35 +87,6 @@ label {
 	font-size: 12px;
 	line-height: 12px !important;
 }
-/*Buy Cash Back*/
-.product-info-tabs .nav-pills li a{
-    font-size:13px;
-}
-.expecting-trading-box{
-    padding: 32px;
-}
-.font16{
-    font-size: 13px;
-}
-.border-round{
-    padding: 10px 18px 10px 18px ;
-}
-.border-round span{
-    padding: 11px 10px;
-    margin-left:0px;
-}
-.pl3{
-    padding-left: 30px;
-}
-.pl5{
-    padding-left: 50px;
-}
-.trading-up-down-btn{
-    height: 35px;
-}
-.up-down-btn{
-    margin-top: -16px;
-}
 }
 @media screen and (max-width: 1366px) {
 .btn i {
@@ -187,16 +158,6 @@ label {
 	background: linear-gradient(180deg, rgba(255,255,255,1) 70%, rgba(242,245,250,1) 30%);
 }
 }
-@media screen and (max-width:1334.99px) and (min-width: 1280.99px){
-    .product-info-tabs .nav-pills li {
-        margin-bottom: 20px;
-    }
-}
-@media screen and (max-width:1079px) and (min-width: 768px){
-    .product-info-tabs .nav-pills li {
-        margin-bottom: 20px;
-    }
-}
 @media screen and (max-width:991.98px) {
 .mb0-md {
 	margin-bottom: 0;
@@ -221,20 +182,6 @@ label {
 }
 .mb9-md {
 	margin-bottom: 90px;
-}
-.buy-license-graph{
- text-align: center;
- margin-top: 20px
-}
-.buy-license-graph img{
-    max-width: 300px;
-}
-.product-info-tabs{
-    margin-bottom: 30px;
-}
-.buy-cashback-licenses.bg-gradiant {
-    /* background: rgb(255,255,255); */
-    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(242,245,250,1) 0%);
 }
 }
 @media screen and (max-width:767.98px) {
@@ -323,8 +270,5 @@ label {
 }
 .tabs-registration .tab-pane {
 	padding: 40px;
-}
-.padding-left-45 {
-    padding-left: 25px;
 }
 }

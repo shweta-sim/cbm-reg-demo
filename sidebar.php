@@ -12,10 +12,10 @@
         <div id="collapseOne" class="panel-collapse collapse show" role="tabpanel" aria-labelledby="headingOne">
           <div class="panel-body">
             <ul class="nav flex-column mb2">
-              <li class="nav-item"> <a class="nav-link active" href="step1-registration-1.php"> <i><img src="imgs/icon-logo.svg"></i>
+              <li class="nav-item"> <a class="nav-link" href="step1-registration-1.php"> <i><img src="imgs/icon-logo.svg"></i>
                 <div><span>Step1</span>Registration</div>
                 </a> </li>
-              <li class="nav-item"> <a class="nav-link" href="#"> <i><img src="imgs/icon-cb-license.png"></i>
+              <li class="nav-item"> <a class="nav-link" href="buy-cashback-licenses.php"> <i><img src="imgs/icon-cb-license.png"></i>
                 <div><span>Step2</span>Buy Cashback Licenses</div>
                 </a> </li>
               <li class="nav-item"> <a class="nav-link" href="#"> <i><img src="imgs/icon-select-product.svg"></i>
